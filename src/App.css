@@ -28,6 +28,17 @@
   color: #61dafb;
 }
 
+.App > .common{
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.App > .common > label {
+  width: 50%;
+  margin-top: 1rem;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
