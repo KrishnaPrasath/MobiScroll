@@ -21,7 +21,7 @@ const Scheduler = (props) => {
         return {
             schedule: { type: type }
         };
-    }, []);
+    }, [type]);
     const invalids = [{
         start: '12:00',
         end: '13:00',
